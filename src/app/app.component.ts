@@ -12,6 +12,5 @@ export class AppComponent {
   constructor () {
     this.myAngularxQrCode = 'https://icas.bau.edu.lb:8443/cas/login?service=https://mis.bau.edu.lb/web/v12/iconnectv12/cas/sso.aspx';
   }
-
-  
+ 
 }
