@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 
 import { QRCodeModule } from 'angularx-qrcode';
 
+// import { BarcodesModule } from "@progress/kendo-angular-barcodes";
+// import { ButtonsModule } from "@progress/kendo-angular-buttons";
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +16,9 @@ import { QRCodeModule } from 'angularx-qrcode';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    QRCodeModule
+    QRCodeModule,
+    // BarcodesModule, 
+    // ButtonsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
