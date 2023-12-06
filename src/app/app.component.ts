@@ -11,6 +11,8 @@ export class AppComponent {
   qrCode2: string;
   qrCode3: string;
 
+
+
   constructor () {
     this.qrCode1 = 'https://icas.bau.edu.lb:8443/cas/login?service=https://mis.bau.edu.lb/web/v12/iconnectv12/cas/sso.aspx';
     this.qrCode2 = 'https://emn178.github.io/online-tools/md5.html';
